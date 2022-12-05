@@ -1,0 +1,75 @@
+
+Important general advice
+
+Aim, Objectives and Deliverables.
+The "Project Aim" should summarise your overall goal with 1-3 sentences.
+
+The "Objectives" should be a list (numbered or as bullet points) of individual
+goals that, if completed, will make sure the overall aim is fulfilled.
+
+The "Deliverables" should be a list of items that you promise to provide at
+the end of the project. They can be closely related to the objectives.
+Typically, they include
+* the project report (a must)
+* a detailed documentation of the implementation (and a link to the code if
+  possible)
+* project specific parts within the report (depending of the project), e.g. user
+  evaluation, or an introduction to a certain area, or an evaluation and
+  discussion of results, .
+* Any additional material (e.g. user manual, ...)
+
+Please discuss criteria of how you will measure "success" of your project. 
+
+To avoid any doubts regarding plagiarism
+Please mention ALL SOURCES used, including for figures, parts
+of code (you can of course build on existing code, as long as you make
+attribution clear), explanations, definitions, etc.
+
+Achieving a very good grade
+
+For a very good grade I will look for evidence of your own, independent ideas
+and thinking. 
+This can be e.g. in form of your own aims/research questions, your own
+examples, your own, tailored algorithm, your reasons for choosing a certain
+software/architecture, your thinking behind your project planning, your own 
+choice and discussion of literature, and/or similar evidence.
+Make sure to include a risk assessment and ways to mitigate possible
+obstacles. However, if you encounter unexpected obstacles along the way, be
+open about this, discuss them and show the path you took to deal with them.
+Again, I will be looking for your ideas and your own response to issues that 
+arose (and you can still get e very good grade), rather than for a report that 
+claims all went well when it did not.
+As your final project will be evaluated solely based on the report, make sure
+to say where you took a decision and why, and to include all information
+(incl. e.g. links to software, or a detailed description of the main features
+and concepts, using screen shots).
+
+Write-up
+Generally, for each sentence, each section and each figure, you need to know
+exactly *why* you are saying/using it, and why here and not somewhere else.
+
+If you have not already, please begin each Chapter, each section and each
+subsection with 1-2 sentences summarising its main purpose.
+
+The report should be written in such a way that it is understandable to a
+fellow student, who is doing a project in Computer Science, but in a very
+different area. It should be self-contained, i.e. all subject-specific
+prerequisites should be explained.	
+
+
+
+Software
+For your software, you may consider whether you plan to publish it, and the
+type of license you want to use. I recommend a free software licence, and
+making it available to the free software community (unless you have reasons,
+e.g. a collaboration with a company, that may prevent you from doing so). 
+It will give you the advantage of becoming part of a community developing your 
+project, and you will meet other people with similar interests. You can also you this later in
+job applications, as evidence of your own work.
+
+Mark schemes
+Finally, make sure to look at the final project mark schemes on minerva,
+to see which categories you will be marked on, and write your report in such a
+way that each of them is addressed. In particular, at the end of your report 
+you should refer to your aims and objectives set out at the start and discuss 
+the progress on each of them.

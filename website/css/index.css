@@ -1,0 +1,98 @@
+nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #F0F8FF;
+	color: black !important;
+}
+
+nav button span {
+	background-color: black;
+}
+
+nav a {
+	color: black !important;
+	transition: all 0.5s;
+}
+
+nav a:hover {
+	color: darkblue !important;
+}
+
+section h1{
+	padding-bottom: 20px;
+}
+
+section h3 {
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	section h3 {
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	section h1 {
+		padding-bottom: 0;
+	}
+}
+
+section.cta {
+	padding: 30px 0;
+	margin: 20px 0;
+	background-color: #F0F8FF;
+}
+
+section.cta h2 {
+	padding: 0;
+	padding-bottom: 20px;
+	margin: 0;
+}
+
+section.cta button {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.rules h3,
+.rules h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+form .form-submit-group {
+	width: 80%;
+	margin: 20px 10%;
+}
+
+input.syntax-check {
+	width: 100%;
+	padding: 1em;
+	border: 1px black solid;
+	border-radius: 0;
+}
+
+form .form-submit-group button {
+	width: 200px;
+	padding: .5em;
+	border: 1px black solid;
+	float: right;
+	margin-top: 10px;
+}
+
+form .form-submit-group p {
+	float: left;
+	margin-top: 10px;
+	padding-top: .5em;
+	color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+	form .form-submit-group button {
+		width: 100%;
+	}
+	form .form-submit-group p {
+		width: 100%;
+		text-align: center;
+		padding-top: 0em;
+	}
+}

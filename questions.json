@@ -1,0 +1,52 @@
+[
+	{
+		"question": "What Year Is It",
+		"img": "",
+		"answers": [
+			{
+				"correct": false,
+				"reason": "2019 was the previous year",
+				"answer": "2019"
+			},
+			{
+				"correct": false,
+				"reason": "This year is not correct",
+				"answer": "2018"
+			},
+			{
+				"correct": true,
+				"reason": "",
+				"answer": "2020"
+			}
+		]
+	},
+	{
+		"question": "Richard Kemp won the Turing award in 1985.",
+		"img": "",
+		"answers": [
+			{
+				"correct": true,
+				"reason": "",
+				"answer": "This proposition is true."
+			},
+			{
+				"correct": false,
+				"reason": "This proposition is true",
+				"answer": "This proposition is false."
+			},
+			{
+				"correct": false,
+				"reason": "It is a proposition",
+				"answer": "This is not a proposition, it is not declarative."
+			},
+			{
+				"correct": false,
+				"reason": "This is a propositional statement.",
+				"answer": "This is a declarative statement, but not a proposition, because its truth value cannot be evaluated."
+			}
+		]
+	}
+
+
+
+]

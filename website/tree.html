@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Logic Project</title>
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/tree.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="/js/tree.js"></script>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+		<script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.js"></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">Logic Website</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/">Home</a></li>
+						<li><a href="/syntax-checker.html">Syntax Checker</a></li>
+						<li><a href="/test-yourself.html">Test Yourself</a></li>
+						<li><a href="/truthtable.html">Truth Table Generator</a></li>
+						<li class="active"><a href="/tree.html">Syntax Tree Viewer</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section class="section container">
+			<h1 class="text-center">Test Yourself</h1>
+			<div class="container rules">
+				<h3>Rules</h3>
+				<p>
+					'∧': operator.and_,
+					'∨': operator.or_,
+					'→': lambda a, b: not a or b,
+					'↔': operator.eq,
+
+					To use the Syntax Checker, you can enter your logic expression.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis harum dolorem itaque. Aliquid unde, ex perferendis repellat esse doloribus libero architecto facilis nobis, dolorem maiores, assumenda, laborum atque ratione similique perspiciatis officiis. Amet atque expedita a minus rerum ut magnam ipsum debitis iste omnis hic laboriosam perspiciatis suscipit, reprehenderit repellendus!
+				</p>
+				<h3>Possible Errors</h3>
+				<h5>Ambiguity</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni non placeat odit dignissimos unde voluptates tenetur et ducimus repellat, asperiores blanditiis harum, temporibus, animi rem. Error molestiae eveniet eum.</p>
+				<h5>Invalid Symbol</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis magni non placeat odit dignissimos unde voluptates tenetur et ducimus repellat, asperiores blanditiis harum, temporibus, animi rem. Error molestiae eveniet eum.</p>
+			</div>
+
+			<form id="form" class="form" action="/api/check_syntax" method="POST">
+				<h3 class="text-center"><b>Generate A Truth Table</b></h3>
+				<div class="form-submit-group">
+					<input type="text" placeholder="Enter Logic Expression..." name="syntax" class="syntax-check">
+					<button type="submit"> Submit Your Expression </button>
+					<p id="result">Try Our The Expression!</p>
+				</div>
+			</form>
+			<div class="container svg-container">
+				<br />
+				<h2 class="text-center">Syntax Tree</h2>
+				<svg id="svg" width="600" height="300"><g></g></svg>
+			</div>
+
+		</section>
+
+	</body>
+</html>
